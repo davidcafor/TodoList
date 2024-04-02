@@ -14,7 +14,7 @@ struct AddView: View {
     var body: some View {
         ScrollView {
             VStack {
-                TextField("Type Ssomething here...", text: $textFieldText)
+                TextField("Type Something here...", text: $textFieldText)
                     .padding(.horizontal)
                     .frame(height: 50)
                     .background(Color(red: 239/255.0, green: 239/255.0, blue: 240/255.0))
