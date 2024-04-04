@@ -9,7 +9,7 @@ import Foundation
 
 //Inmutable Struct
 //Can't change variables on the fly, only via func
-struct ItemModel: Identifiable {
+struct ItemModel: Identifiable, Codable {
     let id: String
     let title: String
     let isCompleted: Bool
