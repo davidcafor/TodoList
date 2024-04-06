@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A6B547E2BC148410033B58C /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6B547D2BC148410033B58C /* NoItemsView.swift */; };
+		3A6B54802BC15EA20033B58C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6B547F2BC15EA20033B58C /* LaunchScreen.storyboard */; };
 		6337A41D2B83BFF9003572CC /* TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6337A41C2B83BFF9003572CC /* TodoListApp.swift */; };
 		6337A4212B83BFFA003572CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6337A4202B83BFFA003572CC /* Assets.xcassets */; };
 		6337A4242B83BFFA003572CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6337A4232B83BFFA003572CC /* Preview Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		3A6B547D2BC148410033B58C /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
+		3A6B547F2BC15EA20033B58C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6337A4192B83BFF9003572CC /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6337A41C2B83BFF9003572CC /* TodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListApp.swift; sourceTree = "<group>"; };
 		6337A4202B83BFFA003572CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				3A6B547D2BC148410033B58C /* NoItemsView.swift */,
 				6337A42D2B83C1C3003572CC /* ListRowView.swift */,
 				6337A42F2B83C35A003572CC /* AddView.swift */,
+				3A6B547F2BC15EA20033B58C /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A6B54802BC15EA20033B58C /* LaunchScreen.storyboard in Resources */,
 				6337A4242B83BFFA003572CC /* Preview Assets.xcassets in Resources */,
 				6337A4212B83BFFA003572CC /* Assets.xcassets in Resources */,
 			);
@@ -318,9 +322,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TodoList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Do Stuff";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -346,9 +352,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TodoList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Do Stuff";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
